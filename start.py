@@ -41,7 +41,7 @@ def main():
                 print("Aborting.")
                 return
         else:
-            # Proceed unless user types 'n'
+            ## Proceed unless user types 'n'
             if response == "n":
                 print("Aborting.")
                 return
