@@ -28,10 +28,10 @@ def main():
 
     if is_up:
         action = "stop"
-        msg = "🛑 Stop containers? [y/N] "  # No default
+        msg = "🛑 Stop containers? [y/N] "  ## No default
     else:
         action = "start"
-        msg = "⚡ Start containers? [Y/n] "  # Yes default
+        msg = "⚡ Start containers? [Y/n] "  ## Yes default
 
     if not force:
         response = input(msg).strip().lower()
